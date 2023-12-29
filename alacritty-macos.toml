@@ -1,0 +1,41 @@
+[font]
+size = 10.0
+
+[font.bold]
+family = "monaco"
+style = "Bold"
+
+[font.bold_italic]
+family = "monaco"
+style = "Bold Italic"
+
+[font.italic]
+family = "monaco"
+style = "Italic"
+
+[font.normal]
+family = "monaco"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[scrolling]
+history = 3000
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+args = ["-l"]
+program = "/bin/zsh"
+
+[window]
+dynamic_padding = true
+opacity = 0.9
+
+[window.dimensions]
+columns = 220
+lines = 60
