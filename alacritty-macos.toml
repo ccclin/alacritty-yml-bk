@@ -35,6 +35,7 @@ program = "/bin/zsh"
 [window]
 dynamic_padding = true
 opacity = 0.9
+option_as_alt = "OnlyLeft"
 
 [window.dimensions]
 columns = 220
